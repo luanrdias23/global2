@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GlobalQuiz.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f04800827bb695a9920fae67b9aa9fb98fd23ec9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GlobalQuiz.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GlobalQuiz.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -77,5 +77,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GlobalQuiz.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "Home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
