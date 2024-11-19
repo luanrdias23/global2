@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rgome\\source\\repos\\GlobalQuiz\\GlobalQuiz\\GlobalQuiz.csproj": {}
+    "C:\\Users\\Dias\\source\\repos\\global2\\GlobalQuiz\\GlobalQuiz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rgome\\source\\repos\\GlobalQuiz\\GlobalQuiz\\GlobalQuiz.csproj": {
+    "C:\\Users\\Dias\\source\\repos\\global2\\GlobalQuiz\\GlobalQuiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rgome\\source\\repos\\GlobalQuiz\\GlobalQuiz\\GlobalQuiz.csproj",
+        "projectUniqueName": "C:\\Users\\Dias\\source\\repos\\global2\\GlobalQuiz\\GlobalQuiz.csproj",
         "projectName": "GlobalQuiz",
-        "projectPath": "C:\\Users\\rgome\\source\\repos\\GlobalQuiz\\GlobalQuiz\\GlobalQuiz.csproj",
-        "packagesPath": "C:\\Users\\rgome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rgome\\source\\repos\\GlobalQuiz\\GlobalQuiz\\obj\\",
+        "projectPath": "C:\\Users\\Dias\\source\\repos\\global2\\GlobalQuiz\\GlobalQuiz.csproj",
+        "packagesPath": "C:\\Users\\Dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dias\\source\\repos\\global2\\GlobalQuiz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,9 +42,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -90,15 +89,31 @@
               "target": "Package",
               "version": "[8.23.60, )"
             },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[23.6.1, )"
+            },
             "Oracle.ManagedDataAccess.Core": {
               "target": "Package",
               "version": "[23.6.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[7.0.0, )"
             }
@@ -122,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
